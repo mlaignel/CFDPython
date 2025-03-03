@@ -24,13 +24,12 @@ bibliography: paper.bib
 
 # Summary
 
-The **CFD Python** learning module is a set of Jupyter notebooks, consisting of 12 "core" lessons, 3 "bonus" lessons, and a "lesson zero" as a quick intro to Python for numerical computing.
-This practical module takes students through 12 steps, incrementally guiding them to program a solution to the two-dimensional Navier--Stokes equation, using finite differences.
+The **CFD Python** learning module is a set of Jupyter notebooks, consisting of 10 "core" lessons, 3 "bonus" lessons, and a "lesson zero" as a quick intro to Python for numerical computing.
+This practical module takes students through 10 steps, incrementally guiding them to program a solution to the two-dimensional Navier--Stokes equation, using finite differences.
 The steps are the following:
 
 * Steps 1--4 are in one dimension: (i) linear convection with a step-function initial condition (IC) and appropriate boundary conditions (BC); with the same IC/BCs: (ii) nonlinear convection, and (iii) diffusion only; (iv) Burgers’ equation, with a saw-tooth IC and periodic BCs.
 * Steps 5--10 are in two dimensions: (v) linear convection with a square function IC and appropriate BCs; with the same IC/BCs: (vi) nonlinear convection, and (vii) diffusion only; (viii) Burgers’ equation; (ix) Laplace equation, with zero IC and both Neumann and Dirichlet BCs; (x) Poisson equation in 2D.
-* Steps 11--12 solve the Navier--Stokes equation in 2D: (xi) cavity flow; (xii) channel flow.
 
 Students learn many valuable lessons as the module guides them through these steps (they should not skip any!). The incremental nature of the exercises means they get a sense of achievement at the end of each lesson, and they feel they are learning with low effort. As they progress, they naturally practice code re-use and they incrementally learn programming and plotting techniques. As they analyze their results, they learn about numerical diffusion, accuracy, and convergence. In about four weeks, they become moderately proficient programmers and are motivated to start discussing more theoretical matters.
 
