@@ -5,7 +5,7 @@
 
 [![DOI](https://jose.theoj.org/papers/10.21105/jose.00021/status.svg)](https://doi.org/10.21105/jose.00021)
 
-**CFD Python**, a.k.a. the **12 steps to Navier-Stokes**, is a practical module for learning the foundations of Computational Fluid Dynamics (CFD) by coding solutions to the basic partial differential equations that describe the physics of fluid flow.
+**CFD Python**, a.k.a. the **10 steps to Navier-Stokes**, is a practical module for learning the foundations of Computational Fluid Dynamics (CFD) by coding solutions to the basic partial differential equations that describe the physics of fluid flow.
 The module was part of a course taught by [Prof. Lorena Barba](http://lorenabarba.com) between 2009 and 2013 in the Mechanical Engineering department at Boston University (Prof. Barba since moved to the George Washington University).
 
 The module assumes only basic programming knowledge (in any language) and some background in partial differential equations and fluid mechanics. The "steps" were inspired by ideas of Dr. Rio Yokota, who was a post-doc in Prof. Barba's lab until 2011, and the lessons were refined by Prof. Barba and her students over several semesters teaching the CFD course. 
@@ -26,7 +26,7 @@ Lessons
 > Launch an interactive session with this module using the Binder service:
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/mlaignel/CFDPython/master)
 
-Steps 1–4 are in one spatial dimension. Steps 5–10 are in two dimensions (2D). Steps 11–12 solve the Navier-Stokes equation in 2D. Three "bonus" notebooks cover the CFL condition for numerical stability, array operations with NumPy, and defining functions in Python.
+Steps 1–4 are in one spatial dimension. Steps 5–10 are in two dimensions (2D). Three "bonus" notebooks cover the CFL condition for numerical stability, array operations with NumPy, and defining functions in Python.
 
 * [Quick Python Intro](http://nbviewer.jupyter.org/github/mlaignel/CFDPython/blob/master/lessons/00_Quick_Python_Intro.ipynb)
 —For Python novices, this lesson introduces the numerical libraries (NumPy and Matplotlib), Python variables, use of whitespace, and slicing arrays.
